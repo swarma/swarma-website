@@ -147,6 +147,9 @@ footer {
   .shares a {
     margin-left: 20px; }
 
+.navbar.with-border-bottom {
+  border-bottom: #5da31a 2px solid; }
+
 /*home*/
 .home-banner {
   background: url("../img/banner.png") no-repeat center;
@@ -181,9 +184,6 @@ footer {
     margin-bottom: 50px; }
 
 /*list*/
-.page-list .navbar {
-  border-bottom: #5da31a 2px solid; }
-
 .page-list .page-content {
   background-color: #F1F1F1; }
 

@@ -1,3 +1,10 @@
+@charset "UTF-8";
+body {
+  padding-bottom: 20px; }
+
+a img {
+  text-decoration: none; }
+
 .navbar-brand {
   height: 95px;
   line-height: 95px; }
@@ -67,6 +74,15 @@ footer {
     margin-top: 10px;
     font-size: 16px; }
 
+/*全局*/
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+.ml20 {
+  margin-left: 20px; }
+
+/*组件*/
 .card {
   height: 328px;
   box-shadow: 0px 5px 20px #AAAAAA; }
@@ -86,6 +102,50 @@ footer {
     position: absolute;
     top: 178px;
     width: 120px; }
+
+.links {
+  list-style: none;
+  height: 27px;
+  padding-left: 0; }
+  .links::before {
+    display: table;
+    content: " "; }
+  .links::after {
+    clear: both;
+    content: ''; }
+  .links li {
+    float: left;
+    padding: 0 10px;
+    border-bottom: #999999 1px solid; }
+    .links li a {
+      font-size: 18px;
+      color: #666666;
+      text-decoration: none; }
+    .links li.active {
+      border-bottom: #5da31a 2px solid; }
+      .links li.active a {
+        color: #5da31a; }
+
+.with-icon {
+  padding-left: 25px;
+  color: #909090; }
+  .with-icon:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 2px; }
+  .with-icon.views:before {
+    background: url(../img/views.png) no-repeat; }
+  .with-icon.good:before {
+    background: url(../img/good.png) no-repeat; }
+
+.shares {
+  width: 130px; }
+  .shares a {
+    margin-left: 20px; }
 
 /*home*/
 .home-banner {
@@ -119,3 +179,73 @@ footer {
     font-weight: normal; }
   .home-teachers .header {
     margin-bottom: 50px; }
+
+/*list*/
+.page-list .navbar {
+  border-bottom: #5da31a 2px solid; }
+
+.page-list .page-content {
+  background-color: #F1F1F1; }
+
+.page-list .links {
+  margin-top: 30px; }
+
+.page-list .list .list-item {
+  background-color: white;
+  padding: 15px 24px;
+  height: 208px;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 20px #AAAAAA; }
+  .page-list .list .list-item .title {
+    font-size: 18px;
+    font-weight: bold;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .page-list .list .list-item .detail {
+    padding: 10px 20px 0 20px;
+    width: 360px; }
+  .page-list .list .list-item .brief {
+    height: 85px;
+    font-size: 12px;
+    margin-top: 10px; }
+
+.page-list .list .pic {
+  width: 265px;
+  height: 180px; }
+
+.page-list .list .meta {
+  /*position: fixed;*/
+  /*bottom: 15px;*/
+  margin-top: 20px;
+  width: 320px; }
+
+.page-list .logo-class-schedule img {
+  width: 100%; }
+
+.page-list .related {
+  margin-top: 20px;
+  background-color: white;
+  padding: 15px; }
+  .page-list .related .links {
+    margin-top: 0; }
+    .page-list .related .links a {
+      font-size: 16px; }
+
+.page-list .related-list .list-item {
+  margin-bottom: 15px; }
+  .page-list .related-list .list-item img {
+    width: 60px;
+    height: 60px;
+    position: absolute; }
+  .page-list .related-list .list-item .detail {
+    padding-left: 70px; }
+  .page-list .related-list .list-item .title {
+    height: 34px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 12px; }
+    .page-list .related-list .list-item .title a {
+      font-size: 12px;
+      color: #666666; }

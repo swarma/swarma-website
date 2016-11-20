@@ -1,0 +1,179 @@
+/*.container{*/
+  /*min-width:1200px;*/
+  /*width: auto !important;   [> Firefox will set width as auto <]*/
+  /*width:1200px; */
+/*}*/
+.navbar-brand{
+  height: 95px;
+  line-height: 95px;
+}
+.logo{
+  height: 55px;
+  width: 55px;
+  margin-top: 5px;
+}
+.navbar{
+  margin-bottom: 0;
+}
+
+.navbar-header{
+  height: 95px;
+}
+
+.navbar-nav li::before{
+  content: '';
+  height: 3px;
+  width: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+}
+
+.navbar-nav li.active::before{
+  background-color: #5DA31A;
+}
+
+.navbar-nav>li>a{
+  line-height: 65px;
+  color: #333;
+  font-size: 16px;
+}
+
+.navbar-nav>li.active>a{
+  color: #5DA31A;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus{
+  text-decoration: none;
+  background-color: rgba(238, 238, 238, 0.5);
+}
+
+footer{
+  background-color: #2D3244;
+  color: #FFF;
+  padding: 40px 0 30px 0;
+}
+
+footer h3{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+footer .navs{
+  margin-top: 25px;
+}
+
+footer .navs a{
+  color: #FFF;
+  font-size: 18px;
+}
+
+footer .navs a:not(:first-child){
+  margin-left: 25px;
+}
+
+footer .content{
+  margin-top: 30px;
+}
+
+
+footer p{
+  color: #666666;
+}
+
+footer .qrcode{
+  width: 115px;
+  float: right;
+}
+
+footer .qrcode:not(:first-child){
+  margin-right: 30px;
+}
+
+footer .qrcode img{
+  width: 115px;
+  height: 115px;
+}
+
+footer .wechat p{
+  color: #FFF;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.card{
+  height: 328px;
+  box-shadow: 0px 5px 20px #AAAAAA;
+}
+
+.card img{
+  height: 200px;
+  width: 100%;
+}
+
+.card p{
+  padding: 15px;
+  color: #666666;
+}
+
+.card h4.name{
+  font-size: 18px;
+  background: url(../img/bg_name.png) no-repeat;
+  line-height: 26px;
+  padding-left: 15px;
+  color: #FFF;
+  font-weight: normal;
+  position: absolute;
+  top: 178px;
+  width: 120px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*home*/
+.home-banner{
+  background: url("../img/banner.png") no-repeat center;
+  height: 672px;
+}
+
+.home-infos{
+  margin-top: 100px;
+}
+
+.home-infos h3{
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+.home-infos p{
+  color: #999999;
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 24px;
+}
+
+.home-teachers{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.home-teachers .paginate{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.home-teachers .title{
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.home-teachers .intro{
+  font-size: 20px;
+  color: #5FA328;
+  font-weight: normal;
+}
+
+.home-teachers .header{
+  margin-bottom: 50px;
+}

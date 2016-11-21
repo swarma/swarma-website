@@ -227,10 +227,10 @@ footer {
   .home-teachers .header {
     margin-bottom: 50px; }
 
-/*list*/
-.page-list .page-content {
+.bg-gray {
   background-color: #F1F1F1; }
 
+/*list*/
 .page-list .links {
   margin-top: 30px; }
 

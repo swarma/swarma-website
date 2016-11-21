@@ -415,3 +415,52 @@ footer {
 
 .page-jike .page-content {
   padding-bottom: 100px; }
+
+.page-detail .banner .left, .page-detail .banner .right {
+  height: 316px; }
+
+.page-detail .banner .brief {
+  padding: 10px 30px;
+  font-size: 13px;
+  color: #777777; }
+
+.page-detail .player {
+  height: 316px; }
+  .page-detail .player img {
+    width: 100%;
+    /*height: 100%;*/
+    max-width: 100%;
+    max-height: 100%; }
+  .page-detail .player .icon-play {
+    position: absolute;
+    right: 60px;
+    bottom: 30px; }
+
+.page-detail .info {
+  background-color: #F8E71C; }
+  .page-detail .info .header {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px; }
+
+.page-detail .questions-and-answers {
+  margin-top: 60px;
+  margin-bottom: 100px; }
+  .page-detail .questions-and-answers .header {
+    font-size: 18px; }
+  .page-detail .questions-and-answers .sections {
+    margin-top: 40px; }
+
+.page-detail .meta {
+  color: #909090; }
+
+.page-detail .answer-header {
+  color: #5DA31A;
+  margin-top: 20px; }
+
+.page-detail .text {
+  padding: 20px;
+  background-color: #F5F5F5;
+  margin-top: 10px; }

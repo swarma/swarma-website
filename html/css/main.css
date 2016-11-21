@@ -76,6 +76,7 @@ footer {
 
 /*全局*/
 .clearfix {
+  clear: both;
   overflow: auto;
   zoom: 1; }
 
@@ -149,6 +150,49 @@ footer {
 
 .navbar.with-border-bottom {
   border-bottom: #5DA31A 2px solid; }
+
+.custom-modal .bs-example {
+  margin-top: 40px; }
+
+.custom-modal .nav-tabs {
+  border-bottom: none; }
+
+.custom-modal .links {
+  width: 100%;
+  text-align: center; }
+  .custom-modal .links li {
+    width: 50%;
+    text-align: center;
+    border: none; }
+    .custom-modal .links li.active a {
+      border: none;
+      border-bottom: #5DA31A 2px solid; }
+
+.custom-modal .modal-body {
+  clear: both;
+  padding-bottom: 40px; }
+  .custom-modal .modal-body .part {
+    margin-top: 30px; }
+  .custom-modal .modal-body .btn-block {
+    background-color: #5DA31A;
+    color: white; }
+  .custom-modal .modal-body .forget {
+    color: #b1b1b1;
+    font-size: 14px;
+    float: right;
+    margin: 20px 0; }
+
+.custom-modal .div-close {
+  position: absolute;
+  top: -17px;
+  right: -17px; }
+
+.custom-modal #group-verify {
+  margin-left: 0;
+  /*margin-right: 0;*/
+  /*input{*/
+  /*width: 100px;*/
+  /*}*/ }
 
 /*home*/
 .home-banner {

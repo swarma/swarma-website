@@ -1,9 +1,10 @@
 @charset "UTF-8";
-body {
-  padding-bottom: 20px; }
-
-a img {
+a {
   text-decoration: none; }
+  a img {
+    text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
 
 .navbar-brand {
   height: 95px;
@@ -83,7 +84,17 @@ footer {
 .ml20 {
   margin-left: 20px; }
 
+.mt30 {
+  margin-top: 30px; }
+
+.mb30 {
+  margin-bottom: 30px; }
+
 /*组件*/
+.paginate {
+  margin-top: 30px;
+  text-align: center; }
+
 .card {
   height: 328px;
   box-shadow: 0px 5px 20px #AAAAAA; }
@@ -142,6 +153,10 @@ footer {
     background: url(../img/views.png) no-repeat; }
   .with-icon.good:before {
     background: url(../img/good.png) no-repeat; }
+  .with-icon.microphone:before {
+    background: url(../img/icon-microphone.png) no-repeat; }
+  .with-icon.time:before {
+    background: url(../img/icon-time.png) no-repeat; }
 
 .shares {
   width: 130px; }
@@ -214,9 +229,6 @@ footer {
 .home-teachers {
   margin-top: 60px;
   margin-bottom: 60px; }
-  .home-teachers .paginate {
-    margin-top: 30px;
-    text-align: center; }
   .home-teachers .title {
     font-size: 28px;
     font-weight: normal; }
@@ -349,3 +361,57 @@ footer {
   .page-about .div-custom-hr img {
     display: block;
     margin: -50px auto 0 auto; }
+
+/*jike*/
+.page-jike .filter {
+  background-color: white;
+  padding: 10px 20px;
+  color: #8A8A8A; }
+  .page-jike .filter .title {
+    width: 150px; }
+  .page-jike .filter a {
+    color: #8A8A8A;
+    margin-right: 20px; }
+
+.page-jike .list-jike a.link-card {
+  color: #333; }
+  .page-jike .list-jike a.link-card:hover .card {
+    box-shadow: 0px 5px 20px #AAAAAA; }
+
+.page-jike .list-jike .card {
+  /*box-shadow: 0px 5px 20px #AAAAAA;*/
+  background-color: white;
+  box-shadow: none;
+  height: 320px;
+  margin-bottom: 20px; }
+  .page-jike .list-jike .card img {
+    /*width: 320px;*/
+    height: 199px; }
+  .page-jike .list-jike .card .title {
+    font-size: 14px;
+    padding: 5px 0;
+    /*font-weight: bold;*/ }
+  .page-jike .list-jike .card .detail {
+    padding: 20px 10px; }
+  .page-jike .list-jike .card .meta {
+    color: #AAAAAA;
+    font-size: 12px;
+    margin-top: 10px; }
+    .page-jike .list-jike .card .meta .right {
+      text-align: right; }
+    .page-jike .list-jike .card .meta div div {
+      height: 20px;
+      line-height: 20px; }
+  .page-jike .list-jike .card .price-tag {
+    position: absolute;
+    background-color: #5CA319;
+    top: 0;
+    left: 30px;
+    color: white;
+    padding: 8px 15px;
+    font-size: 12px; }
+    .page-jike .list-jike .card .price-tag.warning {
+      background-color: #F5A623; }
+
+.page-jike .page-content {
+  padding-bottom: 100px; }

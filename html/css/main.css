@@ -84,6 +84,9 @@ footer {
 .ml20 {
   margin-left: 20px; }
 
+.mt20 {
+  margin-top: 20px; }
+
 .mt30 {
   margin-top: 30px; }
 
@@ -93,7 +96,8 @@ footer {
 /*组件*/
 .paginate {
   margin-top: 30px;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 30px; }
 
 .card {
   height: 328px;
@@ -464,3 +468,78 @@ footer {
   padding: 20px;
   background-color: #F5F5F5;
   margin-top: 10px; }
+
+.page-shiye {
+  /*a.link-card{*/
+  /*color: #333;*/
+  /*&:hover{*/
+  /*.card{*/
+  /*box-shadow: 0px 5px 20px #AAAAAA;*/
+  /*}*/
+  /*}*/
+  /*}*/ }
+  .page-shiye .shiye-banner {
+    background-color: #02051D;
+    /*height: 1040px;*/ }
+    .page-shiye .shiye-banner .lesson {
+      color: white;
+      margin-bottom: 50px; }
+      .page-shiye .shiye-banner .lesson .img-circle {
+        height: 270px;
+        width: 270px;
+        border: 10px solid white; }
+      .page-shiye .shiye-banner .lesson h4 {
+        font-size: 18px;
+        font-weight: normal; }
+      .page-shiye .shiye-banner .lesson .brief {
+        font-size: 14px;
+        margin-top: 40px;
+        line-height: 40px;
+        height: 160px;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+  .page-shiye .card {
+    /*box-shadow: 0px 5px 20px #AAAAAA;*/
+    color: #AAAAAA;
+    background-color: #02051D;
+    box-shadow: none;
+    height: 455px;
+    margin-bottom: 20px;
+    /*.content-shiye{*/
+    /*background-color: #D8E5EE;*/
+    /*}*/ }
+    .page-shiye .card .pic {
+      /*width: 320px;*/
+      height: 160px; }
+    .page-shiye .card .title {
+      font-size: 16px;
+      padding: 5px 0;
+      font-weight: normal;
+      color: white; }
+    .page-shiye .card .detail {
+      padding: 20px 15px; }
+    .page-shiye .card .header {
+      padding: 30px 15px 10px 15px; }
+    .page-shiye .card .meta {
+      color: #AAAAAA;
+      font-size: 12px; }
+      .page-shiye .card .meta div div {
+        height: 20px;
+        line-height: 20px; }
+    .page-shiye .card .desc {
+      color: #EEEEEE;
+      font-size: 12px;
+      line-height: 20px;
+      height: 60px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-top: 10px; }
+  .page-shiye .bg-shiye {
+    background-color: #D8E5EE; }
+  .page-shiye .list-lessions {
+    margin-top: 40px; }
+  .page-shiye .share div {
+    margin-top: 20px; }
+    .page-shiye .share div img {
+      cursor: pointer;
+      cursor: hand; }

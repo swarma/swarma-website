@@ -173,9 +173,9 @@ footer {
     background: url(../img/icon-time.png) no-repeat; }
 
 .shares {
-  width: 130px; }
+  /*width: 130px;*/ }
   .shares a {
-    margin-left: 20px; }
+    margin-right: 20px; }
 
 .navbar.with-border-bottom {
   border-bottom: #5DA31A 2px solid; }
@@ -260,36 +260,36 @@ footer {
 .page-list .links {
   margin-top: 30px; }
 
-.page-list .list .list-item {
-  background-color: white;
-  padding: 15px 24px;
-  height: 208px;
-  margin-bottom: 20px;
-  box-shadow: 0px 5px 20px #AAAAAA; }
-  .page-list .list .list-item .title {
-    font-size: 18px;
-    font-weight: bold;
-    width: 90%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; }
-  .page-list .list .list-item .detail {
-    padding: 10px 20px 0 20px;
-    width: 360px; }
-  .page-list .list .list-item .brief {
-    height: 85px;
-    font-size: 12px;
-    margin-top: 10px; }
-
-.page-list .list .pic {
-  width: 265px;
-  height: 180px; }
-
-.page-list .list .meta {
-  /*position: fixed;*/
-  /*bottom: 15px;*/
-  margin-top: 20px;
-  width: 320px; }
+.page-list .list {
+  /*.pic{*/
+  /*width: 265px;*/
+  /*height: 180px;*/
+  /*}*/ }
+  .page-list .list .list-item {
+    background-color: white;
+    padding: 15px 24px;
+    /*height: 208px;*/
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 20px #AAAAAA; }
+    .page-list .list .list-item .title {
+      font-size: 18px;
+      font-weight: bold;
+      width: 90%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    .page-list .list .list-item .detail {
+      padding: 10px 20px 0 20px;
+      width: 360px; }
+    .page-list .list .list-item .brief {
+      height: 85px;
+      font-size: 12px;
+      margin-top: 10px; }
+  .page-list .list .meta {
+    /*position: fixed;*/
+    /*bottom: 15px;*/
+    margin-top: 20px;
+    /*width: 320px;*/ }
 
 .page-list .logo-class-schedule img {
   width: 100%; }

@@ -495,8 +495,8 @@ footer {
       color: white;
       margin-bottom: 50px; }
       .page-shiye .shiye-banner .lesson .img-circle {
-        height: 270px;
-        width: 270px;
+        /*height: 270px;*/
+        /*width: 270px;*/
         border: 10px solid white; }
       .page-shiye .shiye-banner .lesson h4 {
         font-size: 18px;

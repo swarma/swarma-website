@@ -43,6 +43,16 @@ a {
   text-decoration: none;
   background-color: rgba(238, 238, 238, 0.5); }
 
+.navbar-toggle {
+  padding: 19px 15px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.navbar-custom .navbar-toggle {
+  border-color: #ddd; }
+  .navbar-custom .navbar-toggle .icon-bar {
+    background-color: #888; }
+
 footer {
   background-color: #2D3244;
   color: #FFF;
@@ -214,10 +224,10 @@ footer {
   /*}*/ }
 
 /*home*/
-.home-banner {
-  background: url("../img/banner.png") no-repeat center;
-  height: 672px; }
-
+/*.home-banner{*/
+/*background: url("../img/banner.png") no-repeat center;*/
+/*height: 672px;*/
+/*}*/
 .home-infos {
   margin-top: 100px; }
   .home-infos h3 {

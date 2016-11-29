@@ -223,6 +223,10 @@ footer {
   /*width: 100px;*/
   /*}*/ }
 
+.section-head {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px; }
+
 /*home*/
 /*.home-banner{*/
 /*background: url("../img/banner.png") no-repeat center;*/
@@ -255,6 +259,9 @@ footer {
 
 .bg-gray {
   background-color: #F1F1F1; }
+
+.bg-white {
+  background-color: #FFF; }
 
 /*list*/
 .page-list .links {
@@ -553,10 +560,129 @@ footer {
       margin-top: 10px; }
   .page-shiye .bg-shiye {
     background-color: #D8E5EE; }
-  .page-shiye .list-lessions {
+  .page-shiye .list-lessons {
     margin-top: 40px; }
   .page-shiye .share div {
     margin-top: 20px; }
     .page-shiye .share div img {
       cursor: pointer;
       cursor: hand; }
+
+/* lesson.html 课程 */
+.page-lesson {
+  /*.meta{*/
+  /*[>position: fixed;<]*/
+  /*[>bottom: 15px;<]*/
+  /*margin-top: 20px;*/
+  /*[>width: 320px;<]*/
+  /*}*/ }
+  .page-lesson .lesson-info {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F5F5F5;
+    /*.detail{*/
+    /*padding: 10px 20px 0 20px;*/
+    /*width: 360px;*/
+    /*}*/ }
+    .page-lesson .lesson-info .title {
+      font-size: 18px;
+      font-weight: bold;
+      width: 90%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    .page-lesson .lesson-info .meta {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .page-lesson .lesson-info .brief {
+      height: 60px;
+      font-size: 12px;
+      margin-top: 10px;
+      overflow: hidden;
+      line-height: 15px; }
+    .page-lesson .lesson-info .price {
+      color: #F5AF3B;
+      font-size: 20px; }
+  .page-lesson .links {
+    margin-top: 50px;
+    margin-left: 150px; }
+  .page-lesson ul.links {
+    margin-bottom: 0;
+    height: 37px; }
+    .page-lesson ul.links li {
+      margin-right: 50px;
+      border-bottom: none;
+      padding-bottom: 10px; }
+      .page-lesson ul.links li.active {
+        border-bottom: #5DA31A 2px solid; }
+  .page-lesson .lesson-list {
+    background-color: #F5F5F5;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .page-lesson .lesson-list .section {
+      margin-bottom: 50px;
+      padding-left: 50px; }
+    .page-lesson .lesson-list .title {
+      color: #5CA319; }
+    .page-lesson .lesson-list p {
+      margin-top: 10px; }
+  .page-lesson .lesson-teacher {
+    margin-top: 50px; }
+    .page-lesson .lesson-teacher .card {
+      color: #FFF;
+      margin-top: 17px;
+      background-color: #2D3245;
+      padding: 20px 25px;
+      height: auto; }
+    .page-lesson .lesson-teacher .name {
+      text-align: center;
+      font-size: 13px;
+      margin-top: 10px; }
+    .page-lesson .lesson-teacher hr {
+      margin-top: 10px; }
+    .page-lesson .lesson-teacher .head {
+      height: 100px;
+      width: 100px;
+      border: 5px solid white; }
+    .page-lesson .lesson-teacher .brief {
+      color: #FFF;
+      padding: 0; }
+  .page-lesson .page-content {
+    padding-bottom: 50px; }
+
+/*profile.html 资料修改*/
+.page-profile .user-left {
+  text-align: center; }
+  .page-profile .user-left a {
+    color: #666666; }
+  .page-profile .user-left li.active a {
+    color: #5DA31A; }
+
+.page-profile .user-avatar {
+  height: 100px;
+  width: 100px;
+  margin-top: 50px; }
+
+.page-profile .name {
+  text-align: center;
+  margin-bottom: 50px; }
+
+.page-profile .list li {
+  line-height: 30px; }
+
+.page-profile .user-right {
+  color: #666666;
+  padding: 135px 70px; }
+  .page-profile .user-right .section-head {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .page-profile .user-right .form-group div {
+    margin-bottom: 20px; }
+  .page-profile .user-right .img-interest {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px; }
+
+.page-profile .page-content {
+  padding-bottom: 50px; }

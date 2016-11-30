@@ -227,6 +227,19 @@ footer {
   border-bottom: 1px solid #000;
   padding-bottom: 10px; }
 
+.nowrap {
+  white-space: nowrap; }
+
+.bicon-user {
+  width: 32px; }
+
+.badge-custom {
+  background-color: rgba(255, 255, 255, 0);
+  color: #5DA31A;
+  position: absolute;
+  top: 30px;
+  right: 0px; }
+
 /*home*/
 /*.home-banner{*/
 /*background: url("../img/banner.png") no-repeat center;*/
@@ -262,6 +275,9 @@ footer {
 
 .bg-white {
   background-color: #FFF; }
+
+.bg-blue {
+  background-color: #D8E5EE; }
 
 /*list*/
 .page-list .links {
@@ -652,37 +668,70 @@ footer {
     padding-bottom: 50px; }
 
 /*profile.html 资料修改*/
-.page-profile .user-left {
+.page-profile .user-right .section-head {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.page-profile .user-right .form-group div {
+  margin-bottom: 20px; }
+
+.page-profile .user-right .img-interest {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.page-profile .user-right {
+  padding: 135px 70px; }
+
+/*用户页面通用*/
+.page-mine .user-left {
   text-align: center; }
-  .page-profile .user-left a {
+  .page-mine .user-left a {
     color: #666666; }
-  .page-profile .user-left li.active a {
+  .page-mine .user-left li.active a {
     color: #5DA31A; }
 
-.page-profile .user-avatar {
+.page-mine .user-avatar {
   height: 100px;
   width: 100px;
   margin-top: 50px; }
 
-.page-profile .name {
+.page-mine .name {
   text-align: center;
   margin-bottom: 50px; }
 
-.page-profile .list li {
+.page-mine .list li {
   line-height: 30px; }
 
-.page-profile .user-right {
-  color: #666666;
-  padding: 135px 70px; }
-  .page-profile .user-right .section-head {
-    margin-left: 15px;
-    margin-right: 15px; }
-  .page-profile .user-right .form-group div {
-    margin-bottom: 20px; }
-  .page-profile .user-right .img-interest {
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-right: 15px; }
-
-.page-profile .page-content {
+.page-mine .page-content {
   padding-bottom: 50px; }
+
+.page-mine .user-right {
+  color: #666666; }
+
+/*my_lessons.html 我的课程*/
+.page-my-lessons .links {
+  margin-top: 50px; }
+  .page-my-lessons .links li:first-child {
+    margin-top: 5px; }
+
+.page-my-lessons .dropdown-time-range li a:hover {
+  color: white;
+  background: none #5DA31A; }
+
+.page-my-lessons .list-lessons {
+  margin: 10px 15px 80px 15px; }
+  .page-my-lessons .list-lessons .section {
+    padding: 10px;
+    line-height: 30px;
+    overflow: hidden; }
+    .page-my-lessons .list-lessons .section.head {
+      padding-bottom: 0; }
+    .page-my-lessons .list-lessons .section.foot {
+      padding-top: 0; }
+  .page-my-lessons .list-lessons .list-lesson-item {
+    background-color: #F5F5F5;
+    margin-bottom: 10px; }
+    .page-my-lessons .list-lessons .list-lesson-item .col-md-4:first-child {
+      padding-left: 0;
+      padding-right: 0; }

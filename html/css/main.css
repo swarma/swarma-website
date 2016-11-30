@@ -172,7 +172,13 @@ footer {
   .with-icon.time:before {
     background: url(../img/icon-time.png) no-repeat; }
   .with-icon.comment:before {
-    background: url(../img/icon-time.png) no-repeat; }
+    width: 25px;
+    margin-left: -30px;
+    background: url(../img/icon-comment.png) no-repeat; }
+  .with-icon.comment-black:before {
+    width: 25px;
+    margin-left: -30px;
+    background: url(../img/icon-comment-black.png) no-repeat; }
 
 .shares {
   /*width: 130px;*/ }
@@ -701,6 +707,10 @@ footer {
   .page-lesson .page-content {
     padding-bottom: 50px; }
 
+@media (max-width: 750px) {
+  .page-lesson .links {
+    margin-left: 50px; } }
+
 /*profile.html 资料修改*/
 .page-profile .user-right .section-head {
   margin-left: 15px;
@@ -771,51 +781,51 @@ footer {
       padding-right: 0; }
 
 /*ai_mantan.html AI漫谈*/
-.page-ai-mantan .links-mantan .youxuan {
-  background: url(../img/bg_mantan.png) no-repeat #333333;
-  height: 79px;
-  text-align: center;
-  color: white;
-  line-height: 79px;
-  font-size: 20px;
-  border-bottom: 1px solid #FFF; }
-
-.page-ai-mantan .links-mantan .jinrizuijia-container {
-  padding-right: 0; }
-
-.page-ai-mantan .links-mantan .three {
-  padding-left: 1px; }
-  .page-ai-mantan .links-mantan .three div {
-    height: 80px;
-    color: white;
-    line-height: 80px;
+.page-ai-mantan .links-mantan {
+  margin-bottom: 20px; }
+  .page-ai-mantan .links-mantan .youxuan {
+    background: url(../img/bg_mantan.png) no-repeat #333333;
+    height: 79px;
     text-align: center;
-    padding-top: 1px; }
-
-.page-ai-mantan .links-mantan .jinrizuijia {
-  background-color: #B8E986;
-  height: 240px;
-  color: #333333;
-  text-align: center; }
-  .page-ai-mantan .links-mantan .jinrizuijia .title {
-    padding-top: 60px;
-    font-size: 20px; }
-  .page-ai-mantan .links-mantan .jinrizuijia p {
-    margin-top: 20px;
-    font-size: 18px; }
-  .page-ai-mantan .links-mantan .jinrizuijia .comment {
+    color: white;
+    line-height: 79px;
+    font-size: 20px;
+    border-bottom: 1px solid #FFF; }
+  .page-ai-mantan .links-mantan .jinrizuijia .right-bottom {
     position: absolute;
-    bottom: 5px;
-    right: 10px; }
-
-.page-ai-mantan .links-mantan .zuiduopinglun {
-  background-color: #50E3C2; }
-
-.page-ai-mantan .links-mantan .zuixinfabu {
-  background-color: #4A90E2; }
-
-.page-ai-mantan .links-mantan .zuiduobofang {
-  background-color: #f5a623; }
+    right: 10px;
+    bottom: 10px; }
+  .page-ai-mantan .links-mantan .jinrizuijia-container {
+    padding-right: 0; }
+  .page-ai-mantan .links-mantan .three {
+    padding-left: 1px; }
+    .page-ai-mantan .links-mantan .three div {
+      height: 80px;
+      color: white;
+      line-height: 80px;
+      text-align: center;
+      padding-top: 1px; }
+  .page-ai-mantan .links-mantan .jinrizuijia {
+    background-color: #B8E986;
+    height: 240px;
+    color: #333333;
+    text-align: center; }
+    .page-ai-mantan .links-mantan .jinrizuijia .title {
+      padding-top: 60px;
+      font-size: 20px; }
+    .page-ai-mantan .links-mantan .jinrizuijia p {
+      margin-top: 20px;
+      font-size: 18px; }
+    .page-ai-mantan .links-mantan .jinrizuijia .comment {
+      position: absolute;
+      bottom: 5px;
+      right: 10px; }
+  .page-ai-mantan .links-mantan .zuiduopinglun {
+    background-color: #50E3C2; }
+  .page-ai-mantan .links-mantan .zuixinfabu {
+    background-color: #4A90E2; }
+  .page-ai-mantan .links-mantan .zuiduobofang {
+    background-color: #f5a623; }
 
 .page-ai-mantan .link-card .plus {
   position: absolute;

@@ -286,6 +286,10 @@ footer {
 /*left: -4px;*/
 /*}*/
 /*}*/
+/*共有*/
+.page-mine .links {
+  margin-top: 50px; }
+
 /*home*/
 /*.home-banner{*/
 /*background: url("../img/banner.png") no-repeat center;*/
@@ -324,6 +328,9 @@ footer {
 
 .bg-blue {
   background-color: #D8E5EE; }
+
+.bg-almost-white {
+  background-color: #F5F5F5; }
 
 /*list*/
 .page-list .links {
@@ -740,7 +747,7 @@ footer {
 .page-my-lessons .links {
   margin-top: 50px; }
   .page-my-lessons .links li:first-child {
-    margin-top: 5px; }
+    margin-top: 3px; }
 
 .page-my-lessons .dropdown-time-range li a:hover {
   color: white;
@@ -819,3 +826,49 @@ footer {
   display: -webkit-inline-box; }
   .page-ai-mantan .link-card .plus .with-icon {
     margin-right: 20px; }
+
+/*orders.html 我的订单*/
+.page-my-orders .links li:first-child {
+  margin-top: 4px; }
+
+.page-my-orders .list-orders {
+  margin-top: 20px; }
+
+.page-my-orders .list-order-item {
+  margin-bottom: 10px;
+  position: relative;
+  /*.row{*/
+  /*background-color: #F5F5F5;*/
+  /*}*/ }
+  .page-my-orders .list-order-item a {
+    color: #333333; }
+    .page-my-orders .list-order-item a:hover .content .paid {
+      background: url(../img/order-paid-hover.png) no-repeat; }
+    .page-my-orders .list-order-item a:hover .content .pay {
+      background: url(../img/order-pay-hover.png) no-repeat; }
+  .page-my-orders .list-order-item .head {
+    background-color: #F5F5F5;
+    padding: 5px 20px;
+    border-bottom: 1px solid white;
+    color: #A4A4A4; }
+  .page-my-orders .list-order-item .content {
+    background-color: #F5F5F5;
+    padding: 20px 20px; }
+    .page-my-orders .list-order-item .content .order-state {
+      width: 96px;
+      height: 35px;
+      position: absolute;
+      right: -7px;
+      bottom: 11px;
+      color: white;
+      text-align: center;
+      line-height: 30px; }
+      .page-my-orders .list-order-item .content .order-state.paid {
+        background: url(../img/order-paid-normal.png) no-repeat; }
+      .page-my-orders .list-order-item .content .order-state.pay {
+        background: url(../img/order-pay-normal.png) no-repeat; }
+      .page-my-orders .list-order-item .content .order-state.canceled {
+        background: url(../img/order-canceled-normal.png) no-repeat; }
+
+.page-my-orders .user-right {
+  min-height: 502px; }

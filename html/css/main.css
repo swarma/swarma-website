@@ -296,36 +296,6 @@ footer {
 .page-mine .links {
   margin-top: 50px; }
 
-/*home*/
-/*.home-banner{*/
-/*background: url("../img/banner.png") no-repeat center;*/
-/*height: 672px;*/
-/*}*/
-.home-infos {
-  margin-top: 100px; }
-  .home-infos h3 {
-    font-size: 20px;
-    font-weight: normal;
-    text-align: center; }
-  .home-infos p {
-    color: #999999;
-    font-size: 14px;
-    margin-top: 20px;
-    line-height: 24px; }
-
-.home-teachers {
-  margin-top: 60px;
-  margin-bottom: 60px; }
-  .home-teachers .title {
-    font-size: 28px;
-    font-weight: normal; }
-  .home-teachers .intro {
-    font-size: 20px;
-    color: #5FA328;
-    font-weight: normal; }
-  .home-teachers .header {
-    margin-bottom: 50px; }
-
 .bg-gray {
   background-color: #F1F1F1; }
 
@@ -337,6 +307,43 @@ footer {
 
 .bg-almost-white {
   background-color: #F5F5F5; }
+
+/*home*/
+.page-home {
+  /*.home-banner{*/
+  /*background: url("../img/banner.png") no-repeat center;*/
+  /*height: 672px;*/
+  /*}*/ }
+  .page-home .home-infos {
+    margin-top: 100px; }
+    .page-home .home-infos h3 {
+      font-size: 20px;
+      font-weight: normal;
+      text-align: center; }
+    .page-home .home-infos p {
+      color: #999999;
+      font-size: 14px;
+      margin-top: 20px;
+      line-height: 24px; }
+  .page-home .home-teachers {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    overflow: hidden; }
+    .page-home .home-teachers .title {
+      font-size: 28px;
+      font-weight: normal; }
+    .page-home .home-teachers .intro {
+      font-size: 20px;
+      color: #5FA328;
+      font-weight: normal; }
+    .page-home .home-teachers .header {
+      margin-bottom: 50px; }
+    .page-home .home-teachers .home-teachers-content {
+      position: relative;
+      overflow: hidden;
+      /*height: 330px;*/ }
+    .page-home .home-teachers .paginate-content {
+      margin-bottom: 15px; }
 
 /*list*/
 .page-list .links {

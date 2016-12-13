@@ -34,10 +34,10 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="#">登录</a>
+              <a href="#" onclick="open_login()">登录</a>
             </li>
             <li>
-              <a href="#">注册</a>
+              <a href="#" onclick="open_reg()">注册</a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -244,12 +244,143 @@
         </div>
       </div>
     </footer>
+
+    <!--登录-->
+    <div class="modal fade custom-modal" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="bs-example bs-example-tabs">
+            <ul id="signTab" class="nav nav-tabs links">
+              <li class="active"><a href="#signin" data-toggle="tab">登录学院</a></li>
+              <li class=""><a href="#signup" data-toggle="tab">加入学院</a></li>
+            </ul>
+          </div>
+          <div class="modal-body">
+            <div id="signTabContent" class="tab-content">
+              <div class="tab-pane fade active in" id="signin">
+                <form class="form-horizontal">
+                  <fieldset>
+                    <!-- Sign In Form -->
+
+                    <div class="control-group part">
+                      <div class="input-group">
+                        <div class="input-group-addon">
+                          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="用户名/手机号/邮箱" name="login">
+                      </div>
+                    </div>
+
+                    <!-- Password input-->
+                    <div class="control-group part">
+                      <div class="input-group">
+                        <div class="input-group-addon">
+                          <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+                        </div>
+                        <input type="password" class="form-control" placeholder="请输入密码" name="password">
+                      </div>
+                    </div>
+
+
+                    <!-- Button -->
+                    <div class="control-group part">
+                      <div class="controls">
+                        <button id="btn-signin" class="btn btn-block" type="button">登录</button>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+                <a href="#" class="forget">忘记密码?</a>
+                <div class="clearfix">
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="signup">
+                <form class="form-horizontal">
+                  <fieldset>
+                    <!-- Sign Up Form -->
+                    <div class="control-group part">
+                      <div class="input-group">
+                        <div class="input-group-addon">
+                          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="输入用户名" name="name">
+                      </div>
+                    </div>
+
+                    <div class="control-group part">
+                      <div class="input-group">
+                        <div class="input-group-addon">
+                          <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="输入手机号码" name="phone">
+                      </div>
+                    </div>
+
+                    <div class="control-group part">
+                      <div class="form-inline">
+                        <div class="form-group" id="group-verify">
+                          <input type="text" class="form-control" placeholder="输入验证码" name="phone">
+                          <button class="btn btn-default" type="button">发送验证码</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="control-group part">
+                      <div class="input-group">
+                        <div class="input-group-addon">
+                          <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="输入微信号码" name="wechat">
+                      </div>
+                    </div>
+
+                    <div class="control-group part">
+                      <div class="input-group">
+                        <div class="input-group-addon">
+                          <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+                        </div>
+                        <input type="password" class="form-control" placeholder="请输入密码" name="password">
+                      </div>
+                    </div>
+
+                    <div class="control-group part">
+                      <div class="input-group">
+                        <div class="input-group-addon">
+                          <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+                        </div>
+                        <input type="password" class="form-control" placeholder="在次输入密码" name="password-confirm">
+                      </div>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="control-group part">
+                      <label class="control-label" for="confirmsignup"></label>
+                      <div class="controls">
+                        <button id="confirmsignup" name="confirmsignup" class="btn btn-block" type="button">注册</button>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="div-close">
+            <a href="javascript:;" data-dismiss="modal">
+              <img src="/img/close.png" alt="close" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
       <script src="js/vendor/bootstrap.min.js"></script>
 
       <script src="js/main.js"></script>
+      <script src="js/sign_in_and_sign_up.js"></script>
     </body>
   </html>
 

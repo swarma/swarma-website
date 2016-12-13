@@ -666,17 +666,17 @@ footer {
     .page-lesson .lesson-info .price {
       color: #F5AF3B;
       font-size: 20px; }
-  .page-lesson .links {
+  .page-lesson .lesson-detail .links {
     margin-top: 50px;
     margin-left: 150px; }
-  .page-lesson ul.links {
+  .page-lesson .lesson-detail ul.links {
     margin-bottom: 0;
     height: 37px; }
-    .page-lesson ul.links li {
+    .page-lesson .lesson-detail ul.links li {
       margin-right: 50px;
       border-bottom: none;
       padding-bottom: 10px; }
-      .page-lesson ul.links li.active {
+      .page-lesson .lesson-detail ul.links li.active {
         border-bottom: #5DA31A 2px solid; }
   .page-lesson .lesson-list {
     background-color: #F5F5F5;
@@ -715,7 +715,7 @@ footer {
     padding-bottom: 50px; }
 
 @media (max-width: 750px) {
-  .page-lesson .links {
+  .page-lesson .lesson-detail .links {
     margin-left: 40px; } }
 
 /*profile.html 资料修改*/

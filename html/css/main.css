@@ -601,7 +601,7 @@ footer {
         text-overflow: ellipsis; }
   .page-shiye .card {
     /*box-shadow: 0px 5px 20px #AAAAAA;*/
-    color: #AAAAAA;
+    color: #FFF;
     background-color: #02051D;
     box-shadow: none;
     height: 455px;
@@ -615,26 +615,25 @@ footer {
     .page-shiye .card .title {
       font-size: 16px;
       padding: 5px 0;
-      font-weight: normal;
-      color: white; }
+      font-weight: normal; }
     .page-shiye .card .detail {
       padding: 20px 15px; }
     .page-shiye .card .header {
       padding: 30px 15px 10px 15px; }
     .page-shiye .card .meta {
-      color: #AAAAAA;
       font-size: 12px; }
       .page-shiye .card .meta div div {
         height: 20px;
         line-height: 20px; }
     .page-shiye .card .desc {
-      color: #EEEEEE;
       font-size: 12px;
       line-height: 20px;
       height: 60px;
       overflow: hidden;
       text-overflow: ellipsis;
       margin-top: 10px; }
+    .page-shiye .card .with-icon {
+      color: #FFF; }
   .page-shiye .bg-shiye {
     background-color: #D8E5EE; }
   .page-shiye .list-lessons {
@@ -642,6 +641,8 @@ footer {
   .page-shiye .share div {
     margin-top: 20px; }
     .page-shiye .share div img {
+      width: 27px;
+      height: 27px;
       cursor: pointer;
       cursor: hand; }
 

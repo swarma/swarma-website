@@ -115,9 +115,12 @@ footer {
   .card img {
     height: 200px;
     width: 100%; }
-  .card p {
+  .card .card-content {
+    margin-top: 15px;
     padding: 15px;
-    color: #666666; }
+    color: #666666;
+    max-height: 95px;
+    overflow: hidden; }
   .card h4.name {
     font-size: 18px;
     background: url(../img/bg_name.png) no-repeat;
@@ -165,8 +168,12 @@ footer {
     margin-top: 2px; }
   .with-icon.views:before {
     background: url(../img/views.png) no-repeat; }
+  .with-icon.views-white:before {
+    background: url(../img/icon-views-white.png) no-repeat; }
   .with-icon.good:before {
     background: url(../img/good.png) no-repeat; }
+  .with-icon.good-white:before {
+    background: url(../img/icon-good-white.png) no-repeat; }
   .with-icon.microphone:before {
     background: url(../img/icon-microphone.png) no-repeat; }
   .with-icon.time:before {
@@ -615,9 +622,12 @@ footer {
     .page-shiye .card .title {
       font-size: 16px;
       padding: 5px 0;
-      font-weight: normal; }
+      font-weight: normal;
+      margin-top: 10px; }
     .page-shiye .card .detail {
       padding: 20px 15px; }
+      .page-shiye .card .detail .with-icon {
+        margin-right: 25px; }
     .page-shiye .card .header {
       padding: 30px 15px 10px 15px; }
     .page-shiye .card .meta {

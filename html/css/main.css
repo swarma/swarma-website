@@ -115,9 +115,12 @@ footer {
   .card img {
     height: 200px;
     width: 100%; }
-  .card p {
+  .card .card-content {
+    margin-top: 15px;
     padding: 15px;
-    color: #666666; }
+    color: #666666;
+    max-height: 95px;
+    overflow: hidden; }
   .card h4.name {
     font-size: 18px;
     background: url(../img/bg_name.png) no-repeat;
@@ -165,12 +168,18 @@ footer {
     margin-top: 2px; }
   .with-icon.views:before {
     background: url(../img/views.png) no-repeat; }
+  .with-icon.views-white:before {
+    background: url(../img/icon-views-white.png) no-repeat; }
   .with-icon.good:before {
     background: url(../img/good.png) no-repeat; }
+  .with-icon.good-white:before {
+    background: url(../img/icon-good-white.png) no-repeat; }
   .with-icon.microphone:before {
     background: url(../img/icon-microphone.png) no-repeat; }
   .with-icon.time:before {
     background: url(../img/icon-time.png) no-repeat; }
+  .with-icon.note:before {
+    background: url(../img/icon-note.png) no-repeat; }
   .with-icon.comment:before {
     width: 25px;
     margin-left: -30px;
@@ -179,6 +188,19 @@ footer {
     width: 25px;
     margin-left: -30px;
     background: url(../img/icon-comment-black.png) no-repeat; }
+
+.icon-more {
+  transform: rotate(-45deg);
+  background: #999999;
+  border-radius: 1px;
+  width: 14px;
+  height: 14px; }
+  .icon-more:before {
+    transform: rotate(-45deg);
+    background: #999999;
+    border-radius: 1px;
+    width: 14px;
+    height: 14px; }
 
 .shares {
   /*width: 130px;*/ }
@@ -586,7 +608,7 @@ footer {
         text-overflow: ellipsis; }
   .page-shiye .card {
     /*box-shadow: 0px 5px 20px #AAAAAA;*/
-    color: #AAAAAA;
+    color: #FFF;
     background-color: #02051D;
     box-shadow: none;
     height: 455px;
@@ -601,25 +623,27 @@ footer {
       font-size: 16px;
       padding: 5px 0;
       font-weight: normal;
-      color: white; }
+      margin-top: 10px; }
     .page-shiye .card .detail {
       padding: 20px 15px; }
+      .page-shiye .card .detail .with-icon {
+        margin-right: 25px; }
     .page-shiye .card .header {
       padding: 30px 15px 10px 15px; }
     .page-shiye .card .meta {
-      color: #AAAAAA;
       font-size: 12px; }
       .page-shiye .card .meta div div {
         height: 20px;
         line-height: 20px; }
     .page-shiye .card .desc {
-      color: #EEEEEE;
       font-size: 12px;
       line-height: 20px;
       height: 60px;
       overflow: hidden;
       text-overflow: ellipsis;
       margin-top: 10px; }
+    .page-shiye .card .with-icon {
+      color: #FFF; }
   .page-shiye .bg-shiye {
     background-color: #D8E5EE; }
   .page-shiye .list-lessons {
@@ -627,6 +651,8 @@ footer {
   .page-shiye .share div {
     margin-top: 20px; }
     .page-shiye .share div img {
+      width: 27px;
+      height: 27px;
       cursor: pointer;
       cursor: hand; }
 
@@ -889,3 +915,81 @@ footer {
 
 .page-my-orders .user-right {
   min-height: 502px; }
+
+/* shiye_detail.html 视野详情页 */
+.page-shiye-detail .shiye-banner {
+  width: 100%;
+  background: url(../img/shiye_banner.png) no-repeat center;
+  padding: 20px; }
+
+.page-shiye-detail .content-shiye-detail {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  .page-shiye-detail .content-shiye-detail .with-icon.note {
+    background: #f5a623;
+    border-radius: 2px;
+    width: 89px;
+    height: 33px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 33px; }
+    .page-shiye-detail .content-shiye-detail .with-icon.note:before {
+      margin-top: 7px;
+      margin-left: -18px; }
+  .page-shiye-detail .content-shiye-detail .header .title {
+    font-size: 22px;
+    color: #333333; }
+  .page-shiye-detail .content-shiye-detail hr.hr-header-meta {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 1px solid #979797; }
+  .page-shiye-detail .content-shiye-detail .meta {
+    margin-top: 10px; }
+    .page-shiye-detail .content-shiye-detail .meta .info {
+      /*font-size: 14px;*/
+      /*color:#333333;*/ }
+    .page-shiye-detail .content-shiye-detail .meta .others .with-icon {
+      margin-left: 30px; }
+  .page-shiye-detail .content-shiye-detail .content {
+    margin-top: 30px; }
+  .page-shiye-detail .content-shiye-detail .more {
+    padding: 5px 10px;
+    background: #f5f5f5;
+    border-radius: 2px;
+    width: 120px;
+    margin-top: 30px;
+    color: #666666;
+    cursor: pointer;
+    cursor: hand; }
+    .page-shiye-detail .content-shiye-detail .more img {
+      height: 18px; }
+  .page-shiye-detail .content-shiye-detail .related {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px; }
+    .page-shiye-detail .content-shiye-detail .related a {
+      color: #666666; }
+      .page-shiye-detail .content-shiye-detail .related a img {
+        margin-top: -2px;
+        margin-left: 5px; }
+    .page-shiye-detail .content-shiye-detail .related li {
+      margin-bottom: 20px; }
+  .page-shiye-detail .content-shiye-detail .icon-big-good {
+    opacity: 0.9;
+    background: #50e3c2;
+    width: 41px;
+    height: 40px;
+    border-radius: 100%; }
+    .page-shiye-detail .content-shiye-detail .icon-big-good img {
+      margin-top: 7px;
+      margin-left: 1px; }
+  .page-shiye-detail .content-shiye-detail .plus {
+    margin-top: 80px;
+    color: #666666; }
+    .page-shiye-detail .content-shiye-detail .plus a {
+      color: #666666; }
+  .page-shiye-detail .content-shiye-detail .plus-plus {
+    font-size: 18px;
+    margin-top: 10px; }

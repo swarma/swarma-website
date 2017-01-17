@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/jquery.jcrop.min.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -113,11 +114,19 @@
           </div>
 
           <div class="col-sm-9 bg-white user-right">
-            <div class="section-head">
-              信息修改
-            </div>
             <form action="" method="post">
               <div class="form-group">
+                <div class="text-center">
+                  <img src="/img/user.png" alt="" class="img-responsive center-block img-circle user-avatar" />
+                  <input type="string" value="张鹏" disabled class="text-center" />
+                  <div class="link" id="subject-img">
+                    更换头像
+                  </div>
+                  <input type="hidden" name="pic_url" id="pic_url" value="" />
+                  <div class="clearfix">
+                  </div>
+                </div>
+
                 <div class="col-xs-3">
                   真实姓名
                 </div>
@@ -199,12 +208,43 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal jcrop-modal" id="jcrop-modal">
+      <div class="modal-dialog ">
+        <div class="modal-content">
+          <div class="modal-body jcrop-body">
+            <h3 class="title">编辑图片</h3>
+            <p><a href="javascript:;" class="btn btn-info" data-crop="reload">上传图片</a>
+            </p>
+            <p class="tip"><b>支持jpg、jpeg、png、gif.</b></p>
+            <p class=tip><b>请您点击上传图片按钮并双击选择图片后，按住鼠标或用手指在图片上拖动十字标记选取所要上传图片的部分,获得满意的效果后点击下方的确定按钮即可。</b></p>
+            <div class="jcrop-work" id="jcrop-work">
+              <img src=""  id="jcrop-img" >
+            </div>
+
+            <div>
+              <a href="javascript:;" class="btn btn-info" data-crop="upload">确定</a>
+              <a href="javascript:;" class="btn btn-default" data-crop="close">取消</a>
+            </div>
+            <!-- <div id="preview-pane">
+              <div class="preview-container">
+                <img src="" class="jcrop-preview" alt="Preview" />
+              </div>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
       <script src="js/vendor/bootstrap.min.js"></script>
 
       <script src="js/main.js"></script>
+      <script src="js/jquery.Jcrop.min.js"></script>
+      <script src="js/crop.js"></script>
     </body>
   </html>
 

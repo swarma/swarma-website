@@ -263,7 +263,6 @@ $.fn.cropModal=function(option){
 
 jQuery(document).ready(function(){
   $('#jcrop-modal').cropModal({source:'#subject-img',next:function(data){
-
     $('#pic_url').val(data);
 
   }})

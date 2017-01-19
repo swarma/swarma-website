@@ -114,15 +114,11 @@
           </div>
 
           <div class="col-sm-9 bg-white user-right">
-            <form action="" method="post">
+            <form action="global/modifycourse" method="post">
               <div class="form-group">
                 <div class="text-center">
                   <img src="/img/user.png" alt="" class="img-responsive center-block img-circle user-avatar" />
                   <input type="string" value="张鹏" disabled class="text-center" />
-                  <div class="link" id="subject-img">
-                    更换头像
-                  </div>
-                  <input type="hidden" name="pic_url" id="pic_url" value="" />
                   <div class="clearfix">
                   </div>
                 </div>
@@ -167,6 +163,12 @@
                 </div>
                 <div class="col-xs-9">
                   <input type="string" class="form-control" />
+                </div>
+                <div class="col-xs-3">
+                  头&nbsp;&nbsp;像
+                </div>
+                <div class="col-xs-9">
+                  <input type="file" class="form-control" name="img" />
                 </div>
               </div>
             </form>
